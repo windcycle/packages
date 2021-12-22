@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background: #002939;
+    color: #E4CFA9;
+}
+li{
+    list-style: none;
+}
+nav{
+    background-color:white;
+}
+.nav-link{
+    color:black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color:black;
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    text-decoration:none;
+}
+.main{
+    background: url("../img/assets/bg-relax.jpg")no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+   
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: white;
+}
+.main h6{
+    color: lightgrey;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color:rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color:transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main .bt2:hover{
+    background-color: rgb(233, 20, 109);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+p.text-color{
+    color:blue;
+}
+.content{
+    max-width: 500px;/*container*/
+    margin:auto;/*Text-center*/
+    background:white;
+    padding:10px;
+}
+span.changes{
+    color:red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+section.about h2{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+section.about p {
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: -2px 11px 5px rgba(62,30,30,0.6);       
+}
+section.about .greeting{
+    color: grey;
+    font-size: 16px;
+    font-weight: 500;
+}
+section.about span.colorName{
+    color: black;
+    font-weight: bold;
+}
+section.about img{
+    filter: grayscale(100%) blur(1px) brightness(50%) hue-rotate(24deg) saturate(27%) opacity(97%) contrast(135%) invert(19%);
+    -webkit-filter: grayscale(100%) blur(1px) brightness(50%) hue-rotate(24deg) saturate(27%) opacity(97%) contrast(135%) invert(19%);
+    -moz-filter: grayscale(100%) blur(1px) brightness(50%) hue-rotate(24deg) saturate(27%) opacity(97%) contrast(135%) invert(19%);
+    box-shadow: -2px 16px 0px -7px rgba(138,98,98,0.75);
+    -webkit-box-shadow: -2px 16px 0px -7px rgba(138,98,98,0.75);
+    -moz-box-shadow: -2px 16px 0px -7px rgba(138,98,98,0.75);
+}
+section div.circle{
+    background-color: lightgrey;
+    color: black;
+    height: 70px;
+    width: 70px;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+section div.circle:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+section.seminar div.background2{
+    background-image: url("../img/assets/work.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.seminar h4{
+    font-size: 4.5vh;
+    color: #002939;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+section.seminar p{
+    color: #002939;
+}
+.circle2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.facebook{
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    padding: 14px 16px;
+}
+.facebook:hover{
+    background-color: #333;
+}
+.instagram{
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    padding: 14px 16px;
+}
+.instagram:hover{
+    background-color: #333;
+}
+.twitter{
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    padding: 14px 16px;
+}
+.twitter:hover{
+    background-color: #333;
+}
+.apple{
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    padding: 14px 16px;
+}
+.apple:hover{
+    background-color: #333;
+}
+footer{
+    background-color: #000;
+    color:white;
+    padding: 34px 36px;
+    width: 100%;
+    bottom:0;
+    position: relative;
+}
